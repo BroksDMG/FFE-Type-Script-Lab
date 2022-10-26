@@ -9,9 +9,11 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body{
-        background: #060604;
+        background: ${colorStack.white};
+        margin:0;
+        padding:0;
         overflow:hidden;
-        heigh:100vh;
+        height:100vh;
         font-family:'Roboto', sans-serif;
     }
     a,p{
